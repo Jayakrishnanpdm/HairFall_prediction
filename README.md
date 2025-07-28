@@ -1,6 +1,7 @@
 HairBot is an AI-powered web application that predicts a user’s Norwood stage of hair loss from a selfie image and provides personalized treatment recommendations. It also includes a hair loss progression simulator that shows how the user’s hair might look in 5–6 years if left untreated, using a CycleGAN-based image-to-image translation model.
 
 🚀 Features
+
 ✅ Norwood Stage Detection (1–7) using a TensorFlow MobileNetV2 classifier
 ✅ Questionnaire-based Hair Loss Diagnosis with treatment recommendations
 ✅ Downloadable Diagnosis Report
@@ -8,6 +9,7 @@ HairBot is an AI-powered web application that predicts a user’s Norwood stage 
 ✅ Streamlit-based Web Interface with an easy-to-use UI
 
 🏗️ Project Structure
+
 HairLoss_Predictor/
 │── unified_dataset/               # Original dataset (images + CSV)
 │── balanced_dataset/              # Final balanced dataset (after augmentation)
@@ -19,6 +21,7 @@ HairLoss_Predictor/
 │── README.md                      # This file
 
 ⚡ Installation
+
 1️⃣ Clone the repository
 git clone https://github.com/your-username/HairBot.git
 cd HairBot
