@@ -80,9 +80,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- CSS styling and headers ---
-st.title("✨ HairBot - Your Ultimate Hair Health Assistant")
-st.markdown("An AI-powered tool to diagnose hair loss causes and recommend personalized treatments with precision.", unsafe_allow_html=True)
-
+st.markdown(
+    """
+    <div style='text-align: center;'>
+        <h1>✨ HairBot</h1>
+        <p style='font-size: 20px;'>Your Ultimate Hair Health Assistant</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # --- Load Norwood model ---
 from tensorflow.keras.models import load_model
 import numpy as np
